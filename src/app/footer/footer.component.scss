@@ -1,0 +1,13 @@
+$background-pale: #D1C4E9;
+
+/* @mixin zero-margin($pad-up-down, $pad-left-right) {
+    padding: $pad-up-down $pad-left-right;
+} */
+
+.footer{
+    background-color: $background-pale;
+    /* @include zero-margin(1em, 0px); */
+    position:fixed;
+    bottom:0;
+    width : 100%;
+}

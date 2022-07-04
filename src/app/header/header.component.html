@@ -1,1 +1,22 @@
-<p>header works!</p>
+<mat-toolbar color="primary"> <span>E-commerce</span>
+
+
+
+  <a mat-button> <span class="fa fa-home fa-lg header-icons"></span>
+    <span class="header-text">Home</span>
+  </a>
+  <a mat-button> <span class="fa fa-bell fa-lg header-icons"></span>
+    <span class="header-text">Promotion</span>
+  </a>
+  <a mat-button> <span class="fa fa-gift fa-lg header-icons"></span>
+    <span class="header-text">Offers</span>
+  </a>
+  <a mat-button> <span class="fa fa-shopping-cart fa-lg header-icons"></span>
+    <span class="header-text">Cart</span>
+  </a>
+  <span class="flex-spacer"></span>
+  <mat-form-field fxFlex fxLayoutAlign="end start">
+    <input matInput type="search" placeholder="search here" class="search-input">
+    <mat-icon matSuffix> <span class="fa fa-search fa-lg"> </span></mat-icon>
+  </mat-form-field>
+</mat-toolbar>
